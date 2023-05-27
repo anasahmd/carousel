@@ -1,0 +1,52 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 90vh;
+}
+
+#container {
+	display: flex;
+	width: 95%;
+	gap: 1.5rem;
+	margin: 0 auto;
+	justify-content: center;
+	align-items: center;
+	border: 10px;
+}
+
+.btn {
+	border: none;
+	background-color: #f1f1f1;
+	width: 50px;
+	aspect-ratio: 1 / 1;
+	border-radius: 50%;
+	color: #000;
+	cursor: pointer;
+}
+
+.btn > svg {
+	width: 25%;
+}
+
+.carousel-div {
+	white-space: nowrap;
+	width: 75%;
+	overflow: hidden;
+}
+
+.carousel {
+	width: 100%;
+	transition: transform ease-in-out 0.2s;
+}
+
+.item {
+	width: 33.34%;
+	object-fit: cover;
+}
